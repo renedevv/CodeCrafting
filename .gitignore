@@ -1,0 +1,23 @@
+
+### .gitignore
+
+```gitignore
+# Ignorar arquivos temporários e de configuração do banco de dados
+*.sql
+*.sql~
+*.db
+*.sqlite
+
+# Ignorar arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de backup
+*~
